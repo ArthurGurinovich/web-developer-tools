@@ -4,6 +4,7 @@
   "description": "Web Tools",
   "main": "index.js",
   "scripts": {
+    "start": "browserify -s UMD ./app.js --debug | exorcist ./src/bundle.map.js > ./src/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ArthurGurinovich/web-developer-tools-course/issues"
   },
-  "homepage": "https://github.com/ArthurGurinovich/web-developer-tools-course#readme"
+  "homepage": "https://github.com/ArthurGurinovich/web-developer-tools-course#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "mathjs": "^3.16.5"
+  }
 }
