@@ -1,0 +1,22 @@
+{
+  "name": "web-developer-tools-course",
+  "version": "1.0.0",
+  "description": "Web Tools",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurGurinovich/web-developer-tools.git"
+  },
+  "keywords": [
+    "Web",
+    "Tools"
+  ],
+  "author": "Arthur Gurinovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurGurinovich/web-developer-tools-course/issues"
+  },
+  "homepage": "https://github.com/ArthurGurinovich/web-developer-tools-course#readme"
+}
